@@ -1,14 +1,18 @@
 ---
 layout: home
-title: Just the Class
+title: CS 324 - Advances in Foundation Models
 nav_exclude: true
 permalink: /:path/
 seo:
   type: Course
-  name: Just the Class
+  name: CS 324
 ---
 
-# Just the Class
+# CS 324 - Advances in Foundation Models
+
+This website was built in Jekyell using the [Just the Class](https://kevinl.info/just-the-class/), a GitHub Pages template developed for the purpose of quickly deploying course websites. The template is based on the popular [Just the Docs](https://just-the-docs.github.io/just-the-docs/) theme, a Jekyll documentation theme.
+
+Parts of this site were also adapted from a prior version of the class, taught in [Winter 2021](https://stanford-cs324.github.io/winter2022/). Others were built with [Copilot](https://github.com/features/copilot).
 
 Just the Class is a GitHub Pages template developed for the purpose of quickly deploying course websites. In addition to serving plain web pages and files, it provides a boilerplate for:
 
@@ -36,4 +40,4 @@ Just the Class has been used by instructors at Stanford University ([CS 161](htt
 
 ### Local development environment
 
-Just the Class requires no special Jekyll plugins and can run on GitHub Pages' standard Jekyll compiler. To setup a local development environment, clone your template repository and follow the GitHub Docs on [Testing your GitHub Pages site locally with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll).
+Please see [Testing your GitHub Pages site locally with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll).
