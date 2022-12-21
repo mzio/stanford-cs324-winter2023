@@ -17,8 +17,8 @@ title: CS 324
 tagline: CS 324 - Advances in Foundation Models
 description: Understanding and building on foundation models.
 author: Michael Zhang
-baseurl: '/winter2023' # the subpath of your site, e.g. /blog
-url: 'https://kevinl.info' # the base hostname & protocol for your site, e.g. http://example.com
+# baseurl: '/winter2023' # the subpath of your site, e.g. /blog
+url: 'https://mzio.github.com/stanford-cs324-winter2023' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 
 # Theme settings
