@@ -51,7 +51,7 @@ defaults:
       type: staffers
     values:
       layout: staffer
-      subpath: 'stanford-cs324-winter2023/assets/images/'
+      subpath: '/stanford-cs324-winter2023/assets/images/'
   - scope:
       path: ''
       type: modules
