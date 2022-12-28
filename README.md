@@ -1,7 +1,8 @@
 ---
 layout: home
-title: CS 324 - Advances in Foundation Models
-nav_exclude: true
+title: Home
+nav_exclude: false
+nav_order: 1
 permalink: /:path/
 seo:
   type: Course
@@ -10,34 +11,60 @@ seo:
 
 # CS 324 - Advances in Foundation Models
 
-This website was built in Jekyell using the [Just the Class](https://kevinl.info/just-the-class/), a GitHub Pages template developed for the purpose of quickly deploying course websites. The template is based on the popular [Just the Docs](https://just-the-docs.github.io/just-the-docs/) theme, a Jekyll documentation theme.
+## Overview
 
-Parts of this site were also adapted from a prior version of the class, taught in [Winter 2021](https://stanford-cs324.github.io/winter2022/). Others were built with [Copilot](https://github.com/features/copilot).
+Foundation models (FMs) are models (e.g., DALL-E, GPT-3, Stable Diffusion) that are trained on large amounts of broad data and are adaptable to a wide range of downstream tasks. They form the basis of all state-of-the-art systems across a wide range of tasks and have shown impressive generative and few-shot learning abilities. In this course, students will learn the fundamentals about the modeling, systems and ethical aspects of foundation models, as well as gain hands-on experience working with them. In addition, the course will feature speakers from industry working on these FMs. The key deliverable will be a quarter-long project through which students will design their own FM-based research project or application, targeting a problem they care about. 
 
-Just the Class is a GitHub Pages template developed for the purpose of quickly deploying course websites. In addition to serving plain web pages and files, it provides a boilerplate for:
+---
 
-- [announcements](announcements.md),
-- a [course calendar](calendar.md),
-- a [staff](staff.md) page,
-- and a weekly [schedule](schedule.md).
+## Teaching Team  
+{% assign instructors = site.staffers | sort: 'index' %}
+{% for staffer in instructors %}
+{{ staffer }}
+{% endfor %}
 
-Just the Class is a template that extends the popular [Just the Docs](https://github.com/just-the-docs/just-the-docs) theme, which provides a robust and thoroughly-tested foundation for your website. Just the Docs include features such as:
+---
 
-- automatic [navigation structure](https://just-the-docs.github.io/just-the-docs/docs/navigation-structure/),
-- instant, full-text [search](https://just-the-docs.github.io/just-the-docs/docs/search/) and page indexing,
-- and a set of [UI components](https://just-the-docs.github.io/just-the-docs/docs/ui-components) and authoring [utilities](https://just-the-docs.github.io/just-the-docs/docs/utilities).
+## Logistics
 
-## Getting Started
+<!-- **Faculty**: [Chris Ré](https://cs.stanford.edu/~chrismre/), [Percy Liang](https://cs.stanford.edu/~pliang/), and [Tatsu Hashimoto](https://thashim.github.io/)   -->
 
-Getting started with Just the Class is simple.
+<!-- **Faculty**: Chris Ré, Percy Liang, and Tatsu Hashimoto -->
 
-1. Create a [new repository based on Just the Class](https://github.com/kevinlin1/just-the-class/generate).
-1. Update `_config.yml` and `README.md` with your course information. [Be sure to update the url and baseurl](https://mademistakes.com/mastering-jekyll/site-url-baseurl/).
-1. Configure a [publishing source for GitHub Pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages). Your course website is now live!
-1. Edit and create `.md` [Markdown files](https://guides.github.com/features/mastering-markdown/) to add more content pages.
+**Where**: Class is in person at [Thornton 210](https://goo.gl/maps/NaddwfByWDMDDQXt9)  
 
-Just the Class has been used by instructors at Stanford University ([CS 161](https://stanford-cs161.github.io/winter2021/)), UC Berkeley ([Data 100](https://ds100.org/fa21/)), UC Santa Barbara ([CSW8](https://ucsb-csw8.github.io/s22/)), Northeastern University ([CS4530/5500](https://neu-se.github.io/CS4530-CS5500-Spring-2021/)), and Carnegie Mellon University ([17-450/17-950](https://cmu-crafting-software.github.io/)). Share your course website and find more examples in the [show and tell discussion](https://github.com/kevinlin1/just-the-class/discussions/categories/show-and-tell)!
+**When**: Mondays and Wednesdays, 3:30-4:20pm PST.  
 
-### Local development environment
+**Office Hours**: TBD
 
-Please see [Testing your GitHub Pages site locally with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll).
+**Format**: Classes are a mix of **lectures by course instructors** and **talks + Q&As with guest speakers**. Coursework is a combination of 1 *early assignment* and 1 *quarter-long project*, both focused on working directly and getting hands-on experience with existing foundation models.   
+- Please see the [Class](#class) and [Coursework](#coursework) sections below for more details.
+
+---
+
+## Class 
+This year, CS 324 classes are roughly divided into two halves of the quarter:  
+1. **Weeks 1 - 4**: In the first half, we'll cover the fundamentals and "need-to-know" of foundation models, and provide a general survey of the field. A complete list of topics and related readings can be found [here](). The primary format will be lectures taught by course instructors.
+ 
+2. **Weeks 5 - 10**: In the second half, we'll hear from guest speakers representing a diverse set of experiences building, using, and deploying foundation models in industry and academia for various use-cases and settings. Each class will feature a talk by one guest speaker, followed by a private Q&A.
+
+A complete schedule of individual classes and topics can be found on the [Calendar]() page.
+
+---
+
+## Coursework
+Grading will be fast on three activities:  
+1. Class attendance and participation (10%)
+2. Early assignment (15%) 
+3. Quarter-long project (75%)  
+
+### 1. Class attendance and participation 
+***[Fill in]()***
+
+### 2. Early assignment
+***[Fill in]()***
+
+### 3. Quarter-long project
+***[Fill in]()***
+
+---

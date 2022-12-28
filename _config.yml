@@ -17,20 +17,22 @@ title: CS 324
 tagline: CS 324 - Advances in Foundation Models
 description: Understanding and building on foundation models.
 author: Michael Zhang
-baseurl: '/winter2023' # the subpath of your site, e.g. /blog
-url: 'https://kevinl.info' # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: '/winter2023'
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
+markdown: kramdown
 
 # Theme settings
+# remote_theme: pmarsceill/just-the-docs@v0.3.3
 remote_theme: just-the-docs/just-the-docs@v0.4.0.rc3
 color_scheme: light
 search_enabled: true
 heading_anchors: true
 permalink: pretty
-# aux_links:
-  Winter 2022:
-    - 'https://stanford-cs324.github.io/winter2022/'
-footer_content:
+# # aux_links:
+# Winter 2022:
+#   - 'https://stanford-cs324.github.io/winter2022/'
+# footer_content:
+
 
 # Collections for website data
 collections:
@@ -38,6 +40,9 @@ collections:
   modules:
   schedules:
   announcements:
+  lectures:
+  projects:
+
 # Default layouts for each collection type
 defaults:
   - scope:
@@ -45,9 +50,7 @@ defaults:
       type: staffers
     values:
       layout: staffer
-      height: 300
       subpath: '/assets/images/'
-      width: 300
   - scope:
       path: ''
       type: modules
@@ -63,6 +66,11 @@ defaults:
       type: announcements
     values:
       layout: announcement
+  - scope:
+      path: ''
+      type: lectures
+    values:
+      layout: lecture
 
 compress_html:
   clippings: all
