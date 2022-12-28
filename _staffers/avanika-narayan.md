@@ -2,7 +2,7 @@
 name: Avanika Narayan
 role: Teaching Assistant
 email: avanikan@stanford.edu
-photo: avanika-narayan.jpeg
+photo: avanika-narayan.jpg
 office-hours: TBD
 index: 4
 ---

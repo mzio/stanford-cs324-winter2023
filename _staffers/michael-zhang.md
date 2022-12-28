@@ -2,7 +2,8 @@
 name: Michael Zhang
 role: Teaching Assistant
 email: mzhang@cs.stanford.edu
-photo: michael-zhang.jpeg
+website: https://michaelzhang.xyz/
+photo: michael-zhang.jpg
 office-hours: TBD
 index: 5
 ---
