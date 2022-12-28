@@ -17,7 +17,7 @@ title: CS 324
 tagline: CS 324 - Advances in Foundation Models
 description: Understanding and building on foundation models.
 author: Michael Zhang
-baseurl: ''
+baseurl: 'stanford-cs324-winter2023'
 # baseurl: 'stanford-cs324-winter2023'
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 markdown: kramdown
@@ -51,7 +51,7 @@ defaults:
       type: staffers
     values:
       layout: staffer
-      subpath: '/assets/images/'
+      subpath: 'stanford-cs324-winter2023/assets/images/'
   - scope:
       path: ''
       type: modules
