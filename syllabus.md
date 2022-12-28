@@ -43,29 +43,54 @@ Note that these topics are *not in order* of when they'll be covered in class. S
   - [Scaling Laws and Interpretability of Learning from Repeated Data](https://arxiv.org/abs/2205.10487)
   - [On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜](https://dl-acm-org.stanford.idm.oclc.org/doi/abs/10.1145/3442188.3445922)
 
-### Training and Modeling Objectives for FMs  
+### Model Architectures and Training Objectives for FMs  
 
 * *Course Notes*:
+  - [LLM Architectures](https://stanford-cs324.github.io/winter2022/lectures/modeling/)  
+  - [LLM Training Objectives](https://stanford-cs324.github.io/winter2022/lectures/training/)
 
 * *Blog Posts*:
 
 * *Papers*: 
+  - [Attention Is All You Need](https://arxiv.org/abs/1706.03762)  
+  - [ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators](https://arxiv.org/abs/2003.10555)  
+  - [Unifying Language Learning Paradigms](https://arxiv.org/abs/2205.05131)  
+  - [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683)  
+
 
 ### Emergent Behaviors and Capabilities  
 
-* *Course Notes*:
+* *Course Notes*:  
+  - [Scaling Laws](https://stanford-cs324.github.io/winter2022/assets/pdfs/Scaling%20laws%20pdf.pdf)  
 
-* *Blog Posts*:
+* *Blog Posts*:  
+  - [How Does In-context Learning Work?](https://ai.stanford.edu/blog/understanding-incontext/)
 
 * *Papers*: 
+  - [Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361)  
+  - [Show Your Work: Scratchpads for Intermediate Computation with Language Models](https://arxiv.org/abs/2112.00114)    
+  - [Chain of Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903)  
+  - [Ask Me Anything: A simple strategy for prompting language models](https://arxiv.org/abs/2210.02441)  
+  - [Emergent Abilities of Large Language Models](https://arxiv.org/abs/2206.07682)  
+  - [Data Distributional Properties Drive Emergent Few-Shot Learning in Transformers](https://arxiv.org/abs/2205.05055)    
+  - [An Explanation of In-Context Learning as Implicit Bayesian Inference](https://arxiv.org/abs/2111.02080)  
+  - [Rethinking the Role of Demonstrations: What Makes In-Context Learning Work?](https://arxiv.org/abs/2202.12837)
+
 
 ### Adapting FMs to New Tasks, Data Domains, etc.  
 
 * *Course Notes*:
+  - [Adapting Large Language Models](https://stanford-cs324.github.io/winter2022/lectures/adaptation/)  
 
-* *Blog Posts*:
+* *Blog Posts*:  
 
-* *Papers*: 
+* *Papers*:
+  - [Multitask Prompted Training Enables Zero-Shot Task Generalization](https://arxiv.org/abs/2110.08207)    
+  - [Finetuned Language Models Are Zero-Shot Learners](https://arxiv.org/abs/2109.01652)    
+  - [Prefix-Tuning: Optimizing Continuous Prompts for Generation](https://arxiv.org/abs/2101.00190)    
+  - [Training Language Models to Follow Instructions with Human Feedback](https://arxiv.org/abs/2203.02155)  
+  - [The Power of Scale for Parameter-Efficient Prompt Tuning](https://arxiv.org/abs/2104.08691)  
+
 
 <!-- Include stuff on model editing, LORA too -->
 
