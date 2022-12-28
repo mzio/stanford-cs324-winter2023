@@ -5,13 +5,23 @@ nav_order: 3
 has_children: false
 ---
 
-# CS324 Class Topics / Syllabus (Winter 2023)
+# Class Topics (Winter 2023)
 
 As a reading resource, please find a list of class topics and relevant materials below. Under each topic, we include a list of related readings, including lecture notes, blog posts, papers, and other resources.
 
 We broadly organize class topics under three areas: [Fundamentals](#fundamentals), [Survey of Existing FMs and their Applications](#survey-of-existing-fms-and-their-applications), and [Societal Considerations & Impact](#societal-considerations--impact)
 
 Note that these topics are *not in order* of when they'll be covered in class. Special thanks to the original content creators, including course notes from a [past version of CS 324](https://stanford-cs324.github.io/winter2022/lectures/).
+
+#### Table of Contents  
+- [Fundamentals](#fundamentals)  
+  - [What are foundation models (FMs) and why are they interesting?](#what-are-foundation-models-fms-and-why-are-they-interesting)  
+  - [How does *data* impact FMs and what are the downstream effects?](#how-does-data-impact-fms-and-what-are-the-downstream-effects)  
+  - [How do we *train* FMs and what are the downstream effects?](#how-do-we-train-fms-and-what-are-the-downstream-effects)  
+  - [Model Architectures and Training Objectives for FMs](#model-architectures-and-training-objectives-for-fms)  
+  - [Emergent Behaviors and Capabilities](#emergent-behaviors-and-capabilities)  
+- [Survey of Existing FMs and their Applications](#survey-of-existing-fms-and-their-applications)  
+- [Societal Considerations & Impact](#societal-considerations--impact)  
 
 ---
 
