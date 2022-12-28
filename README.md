@@ -44,7 +44,7 @@ Foundation models (FMs) are models (e.g., DALL-E, GPT-3, Stable Diffusion) that 
 
 ## Class 
 This year, CS 324 classes are roughly divided into two halves of the quarter:  
-1. **Weeks 1 - 4**: In the first half, we'll cover the fundamentals and "need-to-know" of foundation models, and provide a general survey of the field. A complete list of topics and related readings can be found [here](). The primary format will be lectures taught by course instructors.
+1. **Weeks 1 - 4**: In the first half, we'll cover the fundamentals and "need-to-know" of foundation models, and provide a general survey of the field. A complete list of topics and related readings can be found https://michaelzhang.xyz/stanford-cs324-winter2023/syllabus/). The primary format will be lectures taught by course instructors.
  
 2. **Weeks 5 - 10**: In the second half, we'll hear from guest speakers representing a diverse set of experiences building, using, and deploying foundation models in industry and academia for various use-cases and settings. Each class will feature a talk by one guest speaker, followed by a private Q&A.
 
