@@ -26,7 +26,7 @@ Special thanks to the original content creators, including course notes from a [
   - [Training Methods and Infrastucture](#training-methods-and-infrastucture)
 
 - [**Survey of Existing FMs and their Applications**](#survey-of-existing-fms-and-their-applications)  
-  - [Text and (Masked) Language Modeling FMs(#text-and-masked-language-modeling-fms)   
+  - [Text and (Masked) Language Modeling FMs](#text-and-masked-language-modeling-fms)   
   - [Image-Text and Multimodal FMs](#image-text-and-multimodal-fms)    
 
 - [**Societal Considerations & Impact**](#societal-considerations--impact)  
