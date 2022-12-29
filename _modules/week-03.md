@@ -7,5 +7,5 @@ Jan 23
   : Tatsu Hashimoto
 
 Jan 25
-: **Guest Speaker**{: .label .label-purple }[PaLM](#)
+: **Speaker**{: .label .label-green }[PaLM](#)
   : [Aakanksha Chowdhery](http://www.achowdhery.com/) (Google Brain)
